@@ -12,9 +12,7 @@ module.exports = ({ env }) => ({
         "database": "${process.env.DATABASE_NAME}",
         "schema": "public"
       },
-      "options": {
-        "debug": true
-      }
+      "options": {},
     }
   }
 });
