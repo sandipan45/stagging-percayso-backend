@@ -1,3 +1,5 @@
 .cache
 build
+config/database.js
+config/server.js
 **/node_modules/**

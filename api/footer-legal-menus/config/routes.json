@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/footer-legal-menus",
+      "handler": "footer-legal-menus.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/footer-legal-menus/count",
+      "handler": "footer-legal-menus.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/footer-legal-menus/:id",
+      "handler": "footer-legal-menus.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/footer-legal-menus",
+      "handler": "footer-legal-menus.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/footer-legal-menus/:id",
+      "handler": "footer-legal-menus.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/footer-legal-menus/:id",
+      "handler": "footer-legal-menus.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

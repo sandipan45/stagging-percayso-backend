@@ -1,18 +1,18 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "footer_legal_menus",
   "info": {
-    "name": "Site Primary Menu"
+    "name": "Footer Legal Menus"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

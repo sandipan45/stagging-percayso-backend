@@ -1,0 +1,107 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_percaysos",
+  "info": {
+    "name": "About Percayso"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "diagrampercaysointro": {
+      "type": "string"
+    },
+    "percaysointroright": {
+      "type": "string"
+    },
+    "percaysointoleft": {
+      "type": "string"
+    },
+    "percaysologo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "middlelogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "percaysoinformtext": {
+      "type": "string"
+    },
+    "parcaysoinformlogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "percaysoinformlink": {
+      "type": "string"
+    },
+    "percaysobusinesstext": {
+      "type": "string"
+    },
+    "percaysobusinesslogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "percaysobusinesslink": {
+      "type": "string"
+    },
+    "percaysocommutext": {
+      "type": "string"
+    },
+    "percaysocommlogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "percaysocommlink": {
+      "type": "string"
+    },
+    "percaysocommlefttext": {
+      "type": "string"
+    },
+    "percaysocommrighttext": {
+      "type": "string"
+    }
+  }
+}

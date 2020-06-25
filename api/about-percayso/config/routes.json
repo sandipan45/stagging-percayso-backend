@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-percayso",
+      "handler": "about-percayso.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-percayso",
+      "handler": "about-percayso.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-percayso",
+      "handler": "about-percayso.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
