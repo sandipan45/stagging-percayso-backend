@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/percaysoteams",
-      "handler": "percaysoteam.find",
+      "handler": "percaysoteam.find", 
       "config": {
         "policies": []
       }
