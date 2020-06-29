@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/percaysoteams",
+      "handler": "percaysoteam.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/percaysoteams/count",
+      "handler": "percaysoteam.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/percaysoteams/:id",
+      "handler": "percaysoteam.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/percaysoteams",
+      "handler": "percaysoteam.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/percaysoteams/:id",
+      "handler": "percaysoteam.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/percaysoteams/:id",
+      "handler": "percaysoteam.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

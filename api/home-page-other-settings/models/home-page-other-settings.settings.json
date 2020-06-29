@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_other_settings",
+  "info": {
+    "name": "Home Page Other Settings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "investingpercaysotitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "whowearetitle": {
+      "type": "string"
+    },
+    "whowearedeatils": {
+      "type": "richtext"
+    }
+  }
+}

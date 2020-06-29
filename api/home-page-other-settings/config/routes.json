@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-page-other-settings",
+      "handler": "home-page-other-settings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-page-other-settings",
+      "handler": "home-page-other-settings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-page-other-settings",
+      "handler": "home-page-other-settings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

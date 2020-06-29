@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/corporate-section",
+      "handler": "corporate-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/corporate-section",
+      "handler": "corporate-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/corporate-section",
+      "handler": "corporate-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

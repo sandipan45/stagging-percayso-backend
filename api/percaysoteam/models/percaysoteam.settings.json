@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "percaysoteams",
+  "info": {
+    "name": "Percayso Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "aboutmember": {
+      "type": "richtext"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "linkdinurl": {
+      "type": "string"
+    },
+    "featuredimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
