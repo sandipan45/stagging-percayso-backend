@@ -20,6 +20,49 @@
     },
     "whowearedeatils": {
       "type": "richtext"
+    },
+    "latestnewstitle": {
+      "type": "string"
+    },
+    "latestnewssubtitle": {
+      "type": "string"
+    },
+    "careerheading": {
+      "type": "string"
+    },
+    "careersubheading": {
+      "type": "string"
+    },
+    "careerbackgroundimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "contactusheading": {
+      "type": "string"
+    },
+    "contactussubheading": {
+      "type": "string"
+    },
+    "googlemappointerimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "googlemapurl": {
+      "type": "string"
     }
   }
 }

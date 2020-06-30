@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latest_news",
+  "info": {
+    "name": "Latest News"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "newstitle": {
+      "type": "string"
+    },
+    "newsdescription": {
+      "type": "richtext"
+    },
+    "authorname": {
+      "type": "string"
+    },
+    "authorimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "newsdate": {
+      "type": "date"
+    },
+    "newsfeaturedimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
