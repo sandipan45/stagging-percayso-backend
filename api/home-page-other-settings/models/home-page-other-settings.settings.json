@@ -33,17 +33,6 @@
     "careersubheading": {
       "type": "string"
     },
-    "careerbackgroundimg": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "contactusheading": {
       "type": "string"
     },
