@@ -1,22 +1,23 @@
 {
   "kind": "collectionType",
-  "collectionName": "careers",
+  "collectionName": "cms_pages",
   "info": {
-    "name": "Career"
+    "name": "CMS Pages"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "careertitle": {
+    "cmsheading": {
       "type": "string"
     },
-    "careerdescription": {
+    "cmsdescription": {
       "type": "richtext"
     },
-    "howtoapply": {
-      "type": "richtext"
+    "slug": {
+      "type": "uid",
+      "targetField": "cmsheading"
     }
   }
 }
