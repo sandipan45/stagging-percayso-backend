@@ -31,7 +31,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "teamorder": {
+      "type": "integer"
     }
   }
 }
-
